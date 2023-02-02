@@ -1,0 +1,33 @@
+/* Write your code here. */
+.NotificationContd {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 5px 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  .NotificationContdImg img {
+    width: 20px;
+    height: 20px;
+    padding-right: 1rem;
+  }
+  .MainContd {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .MainContd1 {
+    width: 450px;
+  }
+  .MainContd1 h1 {
+    text-align: center;
+  }
+  @media screen and (max-width: 480px) {
+    .MainContd1 {
+      /* background-color: yellow; */
+      width: 90%;
+    }
+  }
+  
